@@ -3,6 +3,7 @@ abstract: "Signs requests using Amazon's Signature Version 4."
 author:
   - 'Charles A. Wimmer <charles@wimmer.net>'
 build_requires:
+  Dist::Zilla::App::Command::cover: 0
   File::Slurp: 0
   HTTP::Request: 0
   JSON: 0
@@ -36,4 +37,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/cwimmer/Net-Amazon-SignatureVersion4.git
-version: 0.001
+version: 0.003

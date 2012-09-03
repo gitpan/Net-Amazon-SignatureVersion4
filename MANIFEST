@@ -5,6 +5,7 @@ Makefile.PL
 README
 README.md
 dist.ini
+hudson-Net-Amazon-SignatureVersion4-Build-Release-Test-1-junit.xml
 lib/Net/Amazon/SignatureVersion4.pm
 t/01-aws4_testsuite.t
 t/02-derived-signing-key.t
@@ -130,6 +131,11 @@ t/aws4_testsuite/post-vanilla-empty-query-value.creq
 t/aws4_testsuite/post-vanilla-empty-query-value.req
 t/aws4_testsuite/post-vanilla-empty-query-value.sreq
 t/aws4_testsuite/post-vanilla-empty-query-value.sts
+t/aws4_testsuite/post-vanilla-query-nonunreserved.authz
+t/aws4_testsuite/post-vanilla-query-nonunreserved.creq
+t/aws4_testsuite/post-vanilla-query-nonunreserved.req
+t/aws4_testsuite/post-vanilla-query-nonunreserved.sreq
+t/aws4_testsuite/post-vanilla-query-nonunreserved.sts
 t/aws4_testsuite/post-vanilla-query-space.authz
 t/aws4_testsuite/post-vanilla-query-space.creq
 t/aws4_testsuite/post-vanilla-query-space.req
@@ -155,11 +161,6 @@ t/aws4_testsuite/post-x-www-form-urlencoded.creq
 t/aws4_testsuite/post-x-www-form-urlencoded.req
 t/aws4_testsuite/post-x-www-form-urlencoded.sreq
 t/aws4_testsuite/post-x-www-form-urlencoded.sts
-t/doubtful/post-vanilla-query-nonunreserved.authz
-t/doubtful/post-vanilla-query-nonunreserved.creq
-t/doubtful/post-vanilla-query-nonunreserved.req
-t/doubtful/post-vanilla-query-nonunreserved.sreq
-t/doubtful/post-vanilla-query-nonunreserved.sts
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/will-not-work/get-header-value-multiline.req

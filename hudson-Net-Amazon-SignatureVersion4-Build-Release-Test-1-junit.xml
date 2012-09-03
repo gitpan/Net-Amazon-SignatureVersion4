@@ -1,0 +1,454 @@
+<testsuites>
+  <testsuite failures="0"
+             errors="0"
+             time="0.893476009368896"
+             tests="120"
+             name="01-aws4_testsuite_t">
+    <testcase time="0.637129068374634"
+              name="1 - get-header-key-duplicate Canonical Request"></testcase>
+    <testcase time="0.00147485733032227"
+              name="2 - get-header-key-duplicate String to Sign"></testcase>
+    <testcase time="0.00226712226867676"
+              name="3 - get-header-key-duplicate Authorization"></testcase>
+    <testcase time="0.00237202644348145"
+              name="4 - get-header-key-duplicate Signed Request"></testcase>
+    <testcase time="0.0014040470123291"
+              name="5 - get-header-value-order Canonical Request"></testcase>
+    <testcase time="0.0018010139465332"
+              name="6 - get-header-value-order String to Sign"></testcase>
+    <testcase time="0.00252079963684082"
+              name="7 - get-header-value-order Authorization"></testcase>
+    <testcase time="0.00266313552856445"
+              name="8 - get-header-value-order Signed Request"></testcase>
+    <testcase time="0.00132894515991211"
+              name="9 - get-header-value-trim Canonical Request"></testcase>
+    <testcase time="0.0011439323425293"
+              name="10 - get-header-value-trim String to Sign"></testcase>
+    <testcase time="0.00205397605895996"
+              name="11 - get-header-value-trim Authorization"></testcase>
+    <testcase time="0.00260114669799805"
+              name="12 - get-header-value-trim Signed Request"></testcase>
+    <testcase time="0.00194787979125977"
+              name="13 - get-relative-relative Canonical Request"></testcase>
+    <testcase time="0.0011601448059082"
+              name="14 - get-relative-relative String to Sign"></testcase>
+    <testcase time="0.00208783149719238"
+              name="15 - get-relative-relative Authorization"></testcase>
+    <testcase time="0.00251913070678711"
+              name="16 - get-relative-relative Signed Request"></testcase>
+    <testcase time="0.00183391571044922"
+              name="17 - get-relative Canonical Request"></testcase>
+    <testcase time="0.00187110900878906"
+              name="18 - get-relative String to Sign"></testcase>
+    <testcase time="0.00251889228820801"
+              name="19 - get-relative Authorization"></testcase>
+    <testcase time="0.00251007080078125"
+              name="20 - get-relative Signed Request"></testcase>
+    <testcase time="0.00150203704833984"
+              name="21 - get-slash-dot-slash Canonical Request"></testcase>
+    <testcase time="0.00137495994567871"
+              name="22 - get-slash-dot-slash String to Sign"></testcase>
+    <testcase time="0.00239992141723633"
+              name="23 - get-slash-dot-slash Authorization"></testcase>
+    <testcase time="0.00290799140930176"
+              name="24 - get-slash-dot-slash Signed Request"></testcase>
+    <testcase time="0.00159597396850586"
+              name="25 - get-slash-pointless-dot Canonical Request"></testcase>
+    <testcase time="0.00115799903869629"
+              name="26 - get-slash-pointless-dot String to Sign"></testcase>
+    <testcase time="0.00238418579101562"
+              name="27 - get-slash-pointless-dot Authorization"></testcase>
+    <testcase time="0.00240588188171387"
+              name="28 - get-slash-pointless-dot Signed Request"></testcase>
+    <testcase time="0.00135898590087891"
+              name="29 - get-slash Canonical Request"></testcase>
+    <testcase time="0.00145101547241211"
+              name="30 - get-slash String to Sign"></testcase>
+    <testcase time="0.00262212753295898"
+              name="31 - get-slash Authorization"></testcase>
+    <testcase time="0.00263381004333496"
+              name="32 - get-slash Signed Request"></testcase>
+    <testcase time="0.00163102149963379"
+              name="33 - get-slashes Canonical Request"></testcase>
+    <testcase time="0.00150895118713379"
+              name="34 - get-slashes String to Sign"></testcase>
+    <testcase time="0.0022730827331543"
+              name="35 - get-slashes Authorization"></testcase>
+    <testcase time="0.00362110137939453"
+              name="36 - get-slashes Signed Request"></testcase>
+    <testcase time="0.00156402587890625"
+              name="37 - get-space Canonical Request"></testcase>
+    <testcase time="0.00152587890625"
+              name="38 - get-space String to Sign"></testcase>
+    <testcase time="0.00232410430908203"
+              name="39 - get-space Authorization"></testcase>
+    <testcase time="0.00266385078430176"
+              name="40 - get-space Signed Request"></testcase>
+    <testcase time="0.00162696838378906"
+              name="41 - get-unreserved Canonical Request"></testcase>
+    <testcase time="0.00160312652587891"
+              name="42 - get-unreserved String to Sign"></testcase>
+    <testcase time="0.00231409072875977"
+              name="43 - get-unreserved Authorization"></testcase>
+    <testcase time="0.00270485877990723"
+              name="44 - get-unreserved Signed Request"></testcase>
+    <testcase time="0.00132894515991211"
+              name="45 - get-utf8 Canonical Request"></testcase>
+    <testcase time="0.00110816955566406"
+              name="46 - get-utf8 String to Sign"></testcase>
+    <testcase time="0.00211191177368164"
+              name="47 - get-utf8 Authorization"></testcase>
+    <testcase time="0.00271391868591309"
+              name="48 - get-utf8 Signed Request"></testcase>
+    <testcase time="0.00162196159362793"
+              name="49 - get-vanilla-empty-query-key Canonical Request"></testcase>
+    <testcase time="0.00122308731079102"
+              name="50 - get-vanilla-empty-query-key String to Sign"></testcase>
+    <testcase time="0.00205707550048828"
+              name="51 - get-vanilla-empty-query-key Authorization"></testcase>
+    <testcase time="0.00223302841186523"
+              name="52 - get-vanilla-empty-query-key Signed Request"></testcase>
+    <testcase time="0.0015418529510498"
+              name="53 - get-vanilla-query-order-key-case Canonical Request"></testcase>
+    <testcase time="0.00202703475952148"
+              name="54 - get-vanilla-query-order-key-case String to Sign"></testcase>
+    <testcase time="0.00260210037231445"
+              name="55 - get-vanilla-query-order-key-case Authorization"></testcase>
+    <testcase time="0.00247788429260254"
+              name="56 - get-vanilla-query-order-key-case Signed Request"></testcase>
+    <testcase time="0.00154900550842285"
+              name="57 - get-vanilla-query-order-key Canonical Request"></testcase>
+    <testcase time="0.00131011009216309"
+              name="58 - get-vanilla-query-order-key String to Sign"></testcase>
+    <testcase time="0.00239205360412598"
+              name="59 - get-vanilla-query-order-key Authorization"></testcase>
+    <testcase time="0.00313186645507812"
+              name="60 - get-vanilla-query-order-key Signed Request"></testcase>
+    <testcase time="0.00146698951721191"
+              name="61 - get-vanilla-query-order-value Canonical Request"></testcase>
+    <testcase time="0.00136613845825195"
+              name="62 - get-vanilla-query-order-value String to Sign"></testcase>
+    <testcase time="0.00244784355163574"
+              name="63 - get-vanilla-query-order-value Authorization"></testcase>
+    <testcase time="0.00313711166381836"
+              name="64 - get-vanilla-query-order-value Signed Request"></testcase>
+    <testcase time="0.00184988975524902"
+              name="65 - get-vanilla-query-unreserved Canonical Request"></testcase>
+    <testcase time="0.00143909454345703"
+              name="66 - get-vanilla-query-unreserved String to Sign"></testcase>
+    <testcase time="0.00229287147521973"
+              name="67 - get-vanilla-query-unreserved Authorization"></testcase>
+    <testcase time="0.00312209129333496"
+              name="68 - get-vanilla-query-unreserved Signed Request"></testcase>
+    <testcase time="0.00163698196411133"
+              name="69 - get-vanilla-query Canonical Request"></testcase>
+    <testcase time="0.0017399787902832"
+              name="70 - get-vanilla-query String to Sign"></testcase>
+    <testcase time="0.00238609313964844"
+              name="71 - get-vanilla-query Authorization"></testcase>
+    <testcase time="0.00316286087036133"
+              name="72 - get-vanilla-query Signed Request"></testcase>
+    <testcase time="0.00139999389648438"
+              name="73 - get-vanilla-ut8-query Canonical Request"></testcase>
+    <testcase time="0.00130105018615723"
+              name="74 - get-vanilla-ut8-query String to Sign"></testcase>
+    <testcase time="0.00297808647155762"
+              name="75 - get-vanilla-ut8-query Authorization"></testcase>
+    <testcase time="0.00255799293518066"
+              name="76 - get-vanilla-ut8-query Signed Request"></testcase>
+    <testcase time="0.00127196311950684"
+              name="77 - get-vanilla Canonical Request"></testcase>
+    <testcase time="0.00111293792724609"
+              name="78 - get-vanilla String to Sign"></testcase>
+    <testcase time="0.00212597846984863"
+              name="79 - get-vanilla Authorization"></testcase>
+    <testcase time="0.00320816040039062"
+              name="80 - get-vanilla Signed Request"></testcase>
+    <testcase time="0.00162601470947266"
+              name="81 - post-header-key-case Canonical Request"></testcase>
+    <testcase time="0.00120282173156738"
+              name="82 - post-header-key-case String to Sign"></testcase>
+    <testcase time="0.00195598602294922"
+              name="83 - post-header-key-case Authorization"></testcase>
+    <testcase time="0.00220203399658203"
+              name="84 - post-header-key-case Signed Request"></testcase>
+    <testcase time="0.00132894515991211"
+              name="85 - post-header-key-sort Canonical Request"></testcase>
+    <testcase time="0.00173616409301758"
+              name="86 - post-header-key-sort String to Sign"></testcase>
+    <testcase time="0.00252485275268555"
+              name="87 - post-header-key-sort Authorization"></testcase>
+    <testcase time="0.0024111270904541"
+              name="88 - post-header-key-sort Signed Request"></testcase>
+    <testcase time="0.00132894515991211"
+              name="89 - post-header-value-case Canonical Request"></testcase>
+    <testcase time="0.00129508972167969"
+              name="90 - post-header-value-case String to Sign"></testcase>
+    <testcase time="0.00222587585449219"
+              name="91 - post-header-value-case Authorization"></testcase>
+    <testcase time="0.00266194343566895"
+              name="92 - post-header-value-case Signed Request"></testcase>
+    <testcase time="0.00192618370056152"
+              name="93 - post-vanilla-empty-query-value Canonical Request"></testcase>
+    <testcase time="0.00122404098510742"
+              name="94 - post-vanilla-empty-query-value String to Sign"></testcase>
+    <testcase time="0.00227689743041992"
+              name="95 - post-vanilla-empty-query-value Authorization"></testcase>
+    <testcase time="0.0023949146270752"
+              name="96 - post-vanilla-empty-query-value Signed Request"></testcase>
+    <testcase time="0.00141501426696777"
+              name="97 - post-vanilla-query-space Canonical Request"></testcase>
+    <testcase time="0.00128602981567383"
+              name="98 - post-vanilla-query-space String to Sign"></testcase>
+    <testcase time="0.00294113159179688"
+              name="99 - post-vanilla-query-space Authorization"></testcase>
+    <testcase time="0.00241899490356445"
+              name="100 - post-vanilla-query-space Signed Request"></testcase>
+    <testcase time="0.00167989730834961"
+              name="101 - post-vanilla-query Canonical Request"></testcase>
+    <testcase time="0.00181293487548828"
+              name="102 - post-vanilla-query String to Sign"></testcase>
+    <testcase time="0.00261998176574707"
+              name="103 - post-vanilla-query Authorization"></testcase>
+    <testcase time="0.00273013114929199"
+              name="104 - post-vanilla-query Signed Request"></testcase>
+    <testcase time="0.00129103660583496"
+              name="105 - post-vanilla Canonical Request"></testcase>
+    <testcase time="0.0011298656463623"
+              name="106 - post-vanilla String to Sign"></testcase>
+    <testcase time="0.00237512588500977"
+              name="107 - post-vanilla Authorization"></testcase>
+    <testcase time="0.00455093383789062"
+              name="108 - post-vanilla Signed Request"></testcase>
+    <testcase time="0.00235104560852051"
+              name="109 - post-x-www-form-urlencoded-parameters Canonical Request"></testcase>
+    <testcase time="0.00145196914672852"
+              name="110 - post-x-www-form-urlencoded-parameters String to Sign"></testcase>
+    <testcase time="0.00272297859191895"
+              name="111 - post-x-www-form-urlencoded-parameters Authorization"></testcase>
+    <testcase time="0.00278997421264648"
+              name="112 - post-x-www-form-urlencoded-parameters Signed Request"></testcase>
+    <testcase time="0.00153994560241699"
+              name="113 - post-x-www-form-urlencoded Canonical Request"></testcase>
+    <testcase time="0.00168108940124512"
+              name="114 - post-x-www-form-urlencoded String to Sign"></testcase>
+    <testcase time="0.00336694717407227"
+              name="115 - post-x-www-form-urlencoded Authorization"></testcase>
+    <testcase time="0.00250816345214844"
+              name="116 - post-x-www-form-urlencoded Signed Request"></testcase>
+    <testcase time="0.00162076950073242"
+              name="117 - post-vanilla-query-nonunreserved Canonical Request"></testcase>
+    <testcase time="0.00134015083312988"
+              name="118 - post-vanilla-query-nonunreserved String to Sign"></testcase>
+    <testcase time="0.00238585472106934"
+              name="119 - post-vanilla-query-nonunreserved Authorization"></testcase>
+    <testcase time="0.00351119041442871"
+              name="120 - post-vanilla-query-nonunreserved Signed Request"></testcase>
+    <testcase time="0.0110940933227539" name="(teardown)" />
+    <system-out><![CDATA[ok 1 - get-header-key-duplicate Canonical Request
+ok 2 - get-header-key-duplicate String to Sign
+ok 3 - get-header-key-duplicate Authorization
+ok 4 - get-header-key-duplicate Signed Request
+ok 5 - get-header-value-order Canonical Request
+ok 6 - get-header-value-order String to Sign
+ok 7 - get-header-value-order Authorization
+ok 8 - get-header-value-order Signed Request
+ok 9 - get-header-value-trim Canonical Request
+ok 10 - get-header-value-trim String to Sign
+ok 11 - get-header-value-trim Authorization
+ok 12 - get-header-value-trim Signed Request
+ok 13 - get-relative-relative Canonical Request
+ok 14 - get-relative-relative String to Sign
+ok 15 - get-relative-relative Authorization
+ok 16 - get-relative-relative Signed Request
+ok 17 - get-relative Canonical Request
+ok 18 - get-relative String to Sign
+ok 19 - get-relative Authorization
+ok 20 - get-relative Signed Request
+ok 21 - get-slash-dot-slash Canonical Request
+ok 22 - get-slash-dot-slash String to Sign
+ok 23 - get-slash-dot-slash Authorization
+ok 24 - get-slash-dot-slash Signed Request
+ok 25 - get-slash-pointless-dot Canonical Request
+ok 26 - get-slash-pointless-dot String to Sign
+ok 27 - get-slash-pointless-dot Authorization
+ok 28 - get-slash-pointless-dot Signed Request
+ok 29 - get-slash Canonical Request
+ok 30 - get-slash String to Sign
+ok 31 - get-slash Authorization
+ok 32 - get-slash Signed Request
+ok 33 - get-slashes Canonical Request
+ok 34 - get-slashes String to Sign
+ok 35 - get-slashes Authorization
+ok 36 - get-slashes Signed Request
+ok 37 - get-space Canonical Request
+ok 38 - get-space String to Sign
+ok 39 - get-space Authorization
+ok 40 - get-space Signed Request
+ok 41 - get-unreserved Canonical Request
+ok 42 - get-unreserved String to Sign
+ok 43 - get-unreserved Authorization
+ok 44 - get-unreserved Signed Request
+ok 45 - get-utf8 Canonical Request
+ok 46 - get-utf8 String to Sign
+ok 47 - get-utf8 Authorization
+ok 48 - get-utf8 Signed Request
+ok 49 - get-vanilla-empty-query-key Canonical Request
+ok 50 - get-vanilla-empty-query-key String to Sign
+ok 51 - get-vanilla-empty-query-key Authorization
+ok 52 - get-vanilla-empty-query-key Signed Request
+ok 53 - get-vanilla-query-order-key-case Canonical Request
+ok 54 - get-vanilla-query-order-key-case String to Sign
+ok 55 - get-vanilla-query-order-key-case Authorization
+ok 56 - get-vanilla-query-order-key-case Signed Request
+ok 57 - get-vanilla-query-order-key Canonical Request
+ok 58 - get-vanilla-query-order-key String to Sign
+ok 59 - get-vanilla-query-order-key Authorization
+ok 60 - get-vanilla-query-order-key Signed Request
+ok 61 - get-vanilla-query-order-value Canonical Request
+ok 62 - get-vanilla-query-order-value String to Sign
+ok 63 - get-vanilla-query-order-value Authorization
+ok 64 - get-vanilla-query-order-value Signed Request
+ok 65 - get-vanilla-query-unreserved Canonical Request
+ok 66 - get-vanilla-query-unreserved String to Sign
+ok 67 - get-vanilla-query-unreserved Authorization
+ok 68 - get-vanilla-query-unreserved Signed Request
+ok 69 - get-vanilla-query Canonical Request
+ok 70 - get-vanilla-query String to Sign
+ok 71 - get-vanilla-query Authorization
+ok 72 - get-vanilla-query Signed Request
+ok 73 - get-vanilla-ut8-query Canonical Request
+ok 74 - get-vanilla-ut8-query String to Sign
+ok 75 - get-vanilla-ut8-query Authorization
+ok 76 - get-vanilla-ut8-query Signed Request
+ok 77 - get-vanilla Canonical Request
+ok 78 - get-vanilla String to Sign
+ok 79 - get-vanilla Authorization
+ok 80 - get-vanilla Signed Request
+ok 81 - post-header-key-case Canonical Request
+ok 82 - post-header-key-case String to Sign
+ok 83 - post-header-key-case Authorization
+ok 84 - post-header-key-case Signed Request
+ok 85 - post-header-key-sort Canonical Request
+ok 86 - post-header-key-sort String to Sign
+ok 87 - post-header-key-sort Authorization
+ok 88 - post-header-key-sort Signed Request
+ok 89 - post-header-value-case Canonical Request
+ok 90 - post-header-value-case String to Sign
+ok 91 - post-header-value-case Authorization
+ok 92 - post-header-value-case Signed Request
+ok 93 - post-vanilla-empty-query-value Canonical Request
+ok 94 - post-vanilla-empty-query-value String to Sign
+ok 95 - post-vanilla-empty-query-value Authorization
+ok 96 - post-vanilla-empty-query-value Signed Request
+ok 97 - post-vanilla-query-space Canonical Request
+ok 98 - post-vanilla-query-space String to Sign
+ok 99 - post-vanilla-query-space Authorization
+ok 100 - post-vanilla-query-space Signed Request
+ok 101 - post-vanilla-query Canonical Request
+ok 102 - post-vanilla-query String to Sign
+ok 103 - post-vanilla-query Authorization
+ok 104 - post-vanilla-query Signed Request
+ok 105 - post-vanilla Canonical Request
+ok 106 - post-vanilla String to Sign
+ok 107 - post-vanilla Authorization
+ok 108 - post-vanilla Signed Request
+ok 109 - post-x-www-form-urlencoded-parameters Canonical Request
+ok 110 - post-x-www-form-urlencoded-parameters String to Sign
+ok 111 - post-x-www-form-urlencoded-parameters Authorization
+ok 112 - post-x-www-form-urlencoded-parameters Signed Request
+ok 113 - post-x-www-form-urlencoded Canonical Request
+ok 114 - post-x-www-form-urlencoded String to Sign
+ok 115 - post-x-www-form-urlencoded Authorization
+ok 116 - post-x-www-form-urlencoded Signed Request
+not ok 117 - post-vanilla-query-nonunreserved Canonical Request # TODO These tests are failing for unknown reasons
+#   Failed (TODO) test 'post-vanilla-query-nonunreserved Canonical Request'
+#   at t/01-aws4_testsuite.t line 88.
+not ok 118 - post-vanilla-query-nonunreserved String to Sign # TODO These tests are failing for unknown reasons
+#   Failed (TODO) test 'post-vanilla-query-nonunreserved String to Sign'
+#   at t/01-aws4_testsuite.t line 93.
+not ok 119 - post-vanilla-query-nonunreserved Authorization # TODO These tests are failing for unknown reasons
+#   Failed (TODO) test 'post-vanilla-query-nonunreserved Authorization'
+#   at t/01-aws4_testsuite.t line 98.
+not ok 120 - post-vanilla-query-nonunreserved Signed Request # TODO These tests are failing for unknown reasons
+#   Failed (TODO) test 'post-vanilla-query-nonunreserved Signed Request'
+#   at t/01-aws4_testsuite.t line 108.
+1..120
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+  <testsuite failures="0"
+             errors="0"
+             time="0.704069137573242"
+             tests="5"
+             name="02-derived-signing-key_t">
+    <testcase time="0.690623998641968" name="1 - kSecret"></testcase>
+    <testcase time="0.000535011291503906" name="2 - kDate"></testcase>
+    <testcase time="0.000341176986694336" name="3 - kRegion"></testcase>
+    <testcase time="0.000319957733154297" name="4 - kService"></testcase>
+    <testcase time="0.000262022018432617" name="5 - kSigning"></testcase>
+    <testcase time="0.011721134185791" name="(teardown)" />
+    <system-out><![CDATA[ok 1 - kSecret
+ok 2 - kDate
+ok 3 - kRegion
+ok 4 - kService
+ok 5 - kSigning
+1..5
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+  <testsuite failures="0"
+             errors="0"
+             time="0.64467191696167"
+             tests="1"
+             name="03_real_world_test_t">
+    <testcase time="0.632627964019775" name="1"></testcase>
+    <testcase time="0.0117168426513672" name="(teardown)" />
+    <system-out><![CDATA[ok 1 # skip Skipping live connection tests because AWS_ACCESS_KEY_ID and AWS_SECRET_KEY are not set
+1..1
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+  <testsuite failures="0"
+             errors="0"
+             time="0.901665925979614"
+             tests="1"
+             name="author-critic_t">
+    <testcase time="0.542567014694214" name="(init)" />
+    <testcase time="0.35167407989502"
+              name="1 - Test::Perl::Critic for &quot;blib/lib/Net/Amazon/SignatureVersion4.pm&quot;"></testcase>
+    <testcase time="0.00742483139038086" name="(teardown)" />
+    <system-out><![CDATA[1..1
+ok 1 - Test::Perl::Critic for "blib/lib/Net/Amazon/SignatureVersion4.pm"
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+  <testsuite failures="0"
+             errors="0"
+             time="0.71651291847229"
+             tests="1"
+             name="release-pod-coverage_t">
+    <testcase time="0.081960916519165" name="(init)" />
+    <testcase time="0.624046087265015"
+              name="1 - Pod coverage on Net::Amazon::SignatureVersion4"></testcase>
+    <testcase time="0.0105059146881104" name="(teardown)" />
+    <system-out><![CDATA[1..1
+ok 1 - Pod coverage on Net::Amazon::SignatureVersion4
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+  <testsuite failures="0"
+             errors="0"
+             time="0.0546979904174805"
+             tests="1"
+             name="release-pod-syntax_t">
+    <testcase time="0.044806957244873" name="(init)" />
+    <testcase time="0.00909519195556641"
+              name="1 - POD test for blib/lib/Net/Amazon/SignatureVersion4.pm"></testcase>
+    <testcase time="0.000795841217041016" name="(teardown)" />
+    <system-out><![CDATA[1..1
+ok 1 - POD test for blib/lib/Net/Amazon/SignatureVersion4.pm
+]]></system-out>
+    <system-err></system-err>
+  </testsuite>
+</testsuites>

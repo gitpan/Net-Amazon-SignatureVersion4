@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Signs requests using Amazon's Signature Version 4.",
   "AUTHOR" => "Charles A. Wimmer <charles\@wimmer.net>",
   "BUILD_REQUIRES" => {
+    "Dist::Zilla::App::Command::cover" => 0,
     "File::Slurp" => 0,
     "HTTP::Request" => 0,
     "JSON" => 0,
@@ -42,7 +43,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
