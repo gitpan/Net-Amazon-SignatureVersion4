@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Net::Amazon::SignatureVersion4;
 {
-  $Net::Amazon::SignatureVersion4::VERSION = '0.003';
+  $Net::Amazon::SignatureVersion4::VERSION = '0.004';
 }
 use MooseX::App qw(Config);
 use Digest::SHA qw(sha256_hex hmac_sha256_hex hmac_sha256 hmac_sha256_base64);
@@ -252,7 +252,7 @@ Net::Amazon::SignatureVersion4 - Signs requests using Amazon's Signature Version
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
