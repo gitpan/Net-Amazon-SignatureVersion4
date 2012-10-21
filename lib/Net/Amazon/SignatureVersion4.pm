@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Net::Amazon::SignatureVersion4;
 {
-  $Net::Amazon::SignatureVersion4::VERSION = '0.004';
+  $Net::Amazon::SignatureVersion4::VERSION = '0.006';
 }
 use MooseX::App qw(Config);
 use Digest::SHA qw(sha256_hex hmac_sha256_hex hmac_sha256 hmac_sha256_base64);
@@ -221,7 +221,7 @@ sub get_canonical_request{
 
 sub _encode{
     #This method is used to add some additional encodings that are not enforced by the URI::Encode module.  AWS expects these.
-    my $encoder = URI::Encode->new();
+    my $encoder = URI::Encode->new({ double_encode => 0 });
     my $rv=shift;
 #    %20=%2F%2C%3F%3E%3C%60%22%3B%3A%5C%7C%5D%5B%7B%7D&%40%23%24%25%5E=
 #    +  =/  ,  ?  %3E%3C%60%22;  :  %5C%7C]  [  %7B%7D&@  #  $  %25%5E=
@@ -252,7 +252,7 @@ Net::Amazon::SignatureVersion4 - Signs requests using Amazon's Signature Version
 
 =head1 VERSION
 
-version 0.004
+version 0.006
 
 =head1 SYNOPSIS
 

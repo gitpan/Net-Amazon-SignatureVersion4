@@ -10,7 +10,7 @@ cover_db/blib-lib-Net-Amazon-SignatureVersion4-pm.html
 cover_db/cover.css
 cover_db/coverage.html
 dist.ini
-hudson-Net-Amazon-SignatureVersion4-Build-Release-Test-2-junit.xml
+hudson-Net-Amazon-SignatureVersion4-Build-Release-Test-4-junit.xml
 lib/Net/Amazon/SignatureVersion4.pm
 t/01-aws4_testsuite.t
 t/02-derived-signing-key.t

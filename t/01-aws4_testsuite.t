@@ -4,7 +4,6 @@ use strict;
 use warnings;
 use Test::More;
 use HTTP::Request;
-use 5.012; # so readdir assigns to $_ in a lone while test
 
 use Net::Amazon::SignatureVersion4;
 my $sig=new Net::Amazon::SignatureVersion4();
@@ -18,7 +17,8 @@ if ( ! opendir($testsuite, $test_suite_location)){
     exit(1);
 }
 
-while(readdir $testsuite) {
+my @tests=readdir $testsuite;
+while(my $_=pop @tests) {
     next unless ($_=~m/(.*)\.req/);
     my $test=$1;
 #    diag "Test: $test\n";
@@ -32,8 +32,9 @@ while(readdir $testsuite) {
     $sig->set_Secret_Access_Key('wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY');
     my $canonical_request_actual=$sig->get_canonical_request();
     write_file("$test_suite_location/$test.me", $canonical_request_actual);
-#    diag($canonical_request_actual);
+    #diag($canonical_request_actual);
     my $canonical_request_correct=read_file("$test_suite_location/$test.creq");
+    #diag($canonical_request_correct);
     ok($canonical_request_actual eq $canonical_request_correct, "$test Canonical Request" );
     my $string_to_sign_actual=$sig->get_string_to_sign();
     write_file("$test_suite_location/$test.sts.me", $string_to_sign_actual);
